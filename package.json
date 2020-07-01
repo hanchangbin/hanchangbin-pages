@@ -13,14 +13,14 @@
   "license": "MIT",
   "author": "韩长斌 <hanchangbin1109@163.com>",
   "files": [
-    "lib"
+    "lib",
+    "bin"
   ],
   "main": "lib/index.js",
   "bin":"bin/hanchangbin-pages.js",  
   "directories": {
     "lib": "lib",
-    "test": "test",
-    "bin": "bin"
+    "test": "test"
   },
   "repository": {
     "type": "git",
