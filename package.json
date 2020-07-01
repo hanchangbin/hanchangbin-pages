@@ -16,9 +16,11 @@
     "lib"
   ],
   "main": "lib/index.js",
+  "bin":"bin/hanchangbin-pages.js",  
   "directories": {
     "lib": "lib",
-    "test": "test"
+    "test": "test",
+    "bin": "bin"
   },
   "repository": {
     "type": "git",
@@ -28,7 +30,24 @@
     "lint": "standard --fix",
     "test": "ava"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^6.2.0",
+    "gulp-load-plugins": "^2.0.3",
+    "gulp-sass": "^4.1.0",
+    "gulp-swig": "^0.9.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^3.1.6",
+    "useref": "^1.4.3"
+  },
   "devDependencies": {
     "ava": "^3.9.0",
     "standard": "^14.3.4"
